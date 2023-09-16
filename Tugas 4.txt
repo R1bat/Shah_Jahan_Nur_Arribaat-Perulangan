@@ -1,0 +1,11 @@
+jumlah_input = 0
+total_angka = 0
+while (True):
+    angka = int(input("Masukkan angka: "))
+    print("Ketik 0 untuk melihat rata - rata")
+    if angka != 0:
+        total_angka += angka
+        jumlah_input += 1
+    if angka == 0:
+        print(total_angka / jumlah_input)
+        break
